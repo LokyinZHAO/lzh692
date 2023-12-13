@@ -1,0 +1,18 @@
+@charset "utf-8";
+body header {
+    font-family: "华文琥珀";
+    color: #00FF61;
+    font-size: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+body {
+    background-image: url(../image/SB.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+tbody tr td {
+    font-size: 90px;
+    text-align: center;
+}

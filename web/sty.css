@@ -1,0 +1,93 @@
+@charset "utf-8";
+.yemei {
+    color: #000000;
+    text-align: center;
+    font-size: 80px;
+    font-family: "仿宋";
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: normal;
+    text-decoration: none;
+    text-shadow: 0px 0px;
+    margin-top: 0px;
+}
+.daohang {
+    color: #FFFFFF;
+    font-family: "幼圆";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    text-align: center;
+    text-shadow: 2px 2px 1px #FFFFFF;
+    background-color: #DB68FF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.xueyuan1 {
+    font-size: 36px;
+    font-family: "华文琥珀";
+    color: #FF0000;
+    margin-left: 90px;
+    float: left;
+}
+.chioce {
+    font-size: 24px;
+    width: auto;
+    margin-left: 100px;
+    font-family: "方正姚体";
+    background-color: #50B7F6;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.xueyuan2 {
+    margin-left: 120px;
+    color: #FFF800;
+    font-family: "华文琥珀";
+    font-size: 36px;
+    text-align: center;
+    float: left;
+}
+.xueyuan3  {
+    color: #0024FF;
+    font-family: "华文琥珀";
+    font-size: 36px;
+    margin-left: 160px;
+    float: left;
+}
+.xueyuan4  {
+    color: #00FF91;
+    font-family: "华文琥珀";
+    font-size: 36px;
+    text-align: left;
+    margin-left: 150px;
+    float: left;
+}
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.video-background:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../image/bjsp.mp4") no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.5; /* 可选，设置视频的透明度 */
+  z-index: -1;
+}
+body {
+    background-image: url(../image/fengmian.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

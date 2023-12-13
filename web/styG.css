@@ -1,0 +1,71 @@
+@charset "utf-8";
+.body {
+    background-color: #000000;
+
+
+
+
+
+
+
+
+
+
+
+
+    background-image: url(
+../image/GB(1).jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-image: url(../image/GB.jpg);
+    background-attachment: fixed;
+    font-size: 80px;
+}
+.zi {
+    float: left;
+    margin-right: 1000px;
+}
+
+.1 {
+}
+.body header {
+    color: #FF0000;
+    text-align: center;
+    font-size: 36px;
+    font-family: "华文琥珀";
+    margin-top: 20px;
+}
+span font a {
+
+}
+
+.tr td img {
+    float: right;
+    visibility: visible;
+    opacity: 0.8;
+    background-image: url(../image/GR3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tbody tr td {
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.link {
+}
+
+.body table {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.tbody tr td:hover {
+    background-position: 0;
+    font-size: 18px;
+    text-align: center;
+}
+.body nav {
+    margin-bottom: 10px;
+}
